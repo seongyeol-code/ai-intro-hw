@@ -11,12 +11,13 @@
 | [`week7_evaluation`](week7_evaluation) | 성능평가 | MATLAB | 혼동행렬(TP·FP·FN·TN)을 입력받아 정확도·민감도·특이도·정밀도·F1-score 등 계산 |
 | [`week9_regression`](week9_regression) | 상관·회귀분석 | MATLAB | Auto MPG 데이터에서 마력 45 이하만 골라 단계적 선택(`stepwiselm`)으로 연비 회귀모델 만들기 |
 | [`week11_pca`](week11_pca) | 차원축소 (PCA) 기초 | Python | 평균을 뺀 데이터로 공분산 행렬 계산, `np.cov`로 검산 |
+| [`week12_perceptron`](week12_perceptron) | 퍼셉트론 | Python | 붓꽃 50개(setosa·versicolor)로 퍼셉트론을 직접 구현해 학습, 사용하는 특징 수에 따라 결과 비교 |
 
 각 폴더의 README에 파일별 설명과 실행 방법을 적어 두었습니다.
 
 ## 실행 환경
 
 - MATLAB (Statistics and Machine Learning Toolbox)
-- Python 3, NumPy
+- Python 3 (NumPy: `week11_pca`)
 
 > 루트의 `hw7_est.m`은 과제 제출 링크를 유지하기 위해 남겨 둔 파일이며, `week7_evaluation/hw7_est.m`과 같은 코드입니다.
